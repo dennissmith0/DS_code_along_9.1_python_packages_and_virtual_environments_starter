@@ -23,8 +23,8 @@ Give your app a name, description, and agree to the Terms of Service and Brandin
 
 Once you've complete these steps you will be presented with two password-looking things called: 
 
-- Client ID
-- Client Secret
+- Client ID 
+- Client Secret 
 
 We'll be using these two values in order to query the Spotify API for data. Leave this webpage open for now, you'll be copying and pasting these two API keys into your project during the Code-Along.
 
