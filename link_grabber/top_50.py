@@ -33,11 +33,11 @@ response = response.json()
 # print('Artist: ', response['tracks']['items'][11]['track']['album']['artists'][0]['name'])
 # print('Album: ', response['tracks']['items'][11]['track']['album']['name'])
 
-def get_top_50_links():
-    song_links = [song['track']['external_urls']['spotify']
-                  for song in response['tracks']['items']]
+# def get_top_50_links():
+#     song_links = [song['track']['external_urls']['spotify']
+#                   for song in response['tracks']['items']]
 
-    return song_links
+#     return song_links
 
 
 for i in range(50):
