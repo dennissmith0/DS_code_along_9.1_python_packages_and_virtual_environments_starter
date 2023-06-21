@@ -14,4 +14,4 @@ def authenticate():
 
     return resp_json['access_token']
 
-print(authenticate())
+#print(authenticate())
